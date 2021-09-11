@@ -15,7 +15,7 @@ app.post('/api/contest', async (req, res) => {
     // Uses req.body stores the "body" parameter passed in by fetch
     
     // PUT API KEY HERE
-    const API_KEY = "AADIy9PvkshZYb4rYcBUY2VKnU7yOVl7H_GkWHpQtdBxXSIR"
+    const API_KEY = ""
     const requestOptions = {
         headers: { 
             Authorization: `Bearer ${API_KEY}`
